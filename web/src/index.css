@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+@import 'tailwindcss';
+
+/* LOUIS — global dark look from the Figma design */
+html, body, #root {
+  background: #010812;
+  color: rgba(220, 235, 255, 0.9);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+* { scrollbar-width: thin; scrollbar-color: rgba(0, 245, 255, 0.2) transparent; }
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-thumb { background: rgba(0, 245, 255, 0.2); border-radius: 2px; }
+input[type='range'] { accent-color: #a855f7; height: 4px; }
+input:-webkit-autofill, input:-webkit-autofill:focus { transition: background-color 600000s 0s, color 600000s 0s; }
