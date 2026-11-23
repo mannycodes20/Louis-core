@@ -1,4 +1,12 @@
-streamlit>=1.50
-langchain-core>=1.0
-langchain-ollama>=1.0
-python-dotenv>=1.0
+fastapi
+uvicorn[standard]
+langchain-core
+langchain-ollama
+python-dotenv
+ddgs
+httpx
+psutil
+numpy
+sounddevice
+faster-whisper
+piper-tts
