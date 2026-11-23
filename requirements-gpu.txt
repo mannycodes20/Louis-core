@@ -1,0 +1,4 @@
+# Optional: lets Whisper use your NVIDIA GPU for faster speech recognition.
+# Louis works without this (it falls back to the CPU automatically).
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*
