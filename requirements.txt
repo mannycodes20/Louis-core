@@ -10,3 +10,6 @@ numpy
 sounddevice
 faster-whisper
 piper-tts
+ctranslate2==4.6.0
+setuptools<81
+xxhash<4
